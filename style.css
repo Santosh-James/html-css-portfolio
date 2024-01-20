@@ -1,0 +1,102 @@
+/* Prebuilt Tools And Imports */
+@import url('https://fonts.cdnfonts.com/css/laguna');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.gradient-background {
+    background: linear-gradient(300deg, #f4e1be, #856f5b, #6a5441);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+/* Main Style */
+*{
+    font-family: 'Laguna', sans-serif;
+}
+
+.logo-img{
+    margin-left: 20px;
+}
+
+.nav-item > .nav-link{
+    margin-right: 40px;
+    font-family: 'Laguna', sans-serif !important;
+    color: black;
+}
+
+.nav :hover{
+    color:rgb(91, 79, 58) !important;
+}
+
+.heading{
+    font-family: 'DM Serif Display', serif;
+}
+
+.text-body-emphasis{
+    font-family: 'DM Serif Display', 'serif';
+    color: #fd7600;
+}
+
+.lead{
+    font-family: 'Laguna', sans-serif;
+}
+
+#skills{
+  font-family: 'DM Serif Display', 'serif';
+  color: black !important;
+}
+
+.icon-div{
+  background-color: #9e8a79;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#skills{
+  margin-top: 50px;
+}
+
+#skills-container{
+  margin-bottom: 50px;
+}
+
+.get-in-touch{
+  color: #2a2119 !important;
+  font-family: 'DM Serif Display', 'serif';
+}
+
+.git-desc{
+  color: black;
+  padding-top: 30px;
+}
+
+.btn{
+  border: 2px solid #4e3d2f !important;
+  font-weight: 600 !important;
+  color: #4e3d2f !important;
+  font-family: 'DM Serif Display', 'serif' !important;
+  letter-spacing: 1px;
+}
+
+.btn:hover{
+  background-color: #4e3d2f  !important;
+  color: #a28c7a !important;
+}
+
+.footer-bg{
+  background-color: #63503f;
+}
